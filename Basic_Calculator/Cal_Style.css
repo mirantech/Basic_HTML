@@ -1,0 +1,51 @@
+<style>
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    text-align:center;
+    margin-left: 700px;
+    margin-top: 150px;
+    background-color: rgba(255,209,157,255);
+    background-image:url("cal1.jpeg");
+    background-repeat: no-repeat;
+}
+label{
+    font-family:cursive;
+}
+input{
+    height: 40px;
+    width: 450px;
+    font-size: medium;
+    border-radius:10px;
+
+}
+input:hover{
+    background-color: rgb(162, 255, 255);
+    transition-duration: 1s;
+    border : 2px dotted black;
+}
+#result{
+    margin-right:50px;
+    border-style:double;
+
+}
+.in{
+    margin-right: 77px;
+}
+button{
+    border:2px solid black;
+    font-size:14px;
+    margin-right: 20px;
+    height:45px;
+    width:60px;
+    background-color: beige;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+    background-color: rgb(138, 56, 134);
+    transition-duration: 1s;
+    border-radius: 13px;
+    border-style: dashed;
+}
+</style>
