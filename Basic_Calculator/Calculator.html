@@ -1,1 +1,25 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Cal_Style.css">
+    <script src="cal_Js.js"></script>
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <label>NUMBER1:</label><input type="number" id="num1" class="in"><br><br>
+    <label>NUMBER2:</label><input type="number" id="num2" class="in">
+    <div id="button">
+        <br>
+        <button onclick="addition()">ADD</button>
+        <button ondblclick="subract()">SUB</button>
+        <button onmouseover="multiply()">MUL</button>
+        <button onblur="division()">DIV</button>
+    </div>
+    <br>
+    <label>RESULT:</label><input id="result"  readonly>
+</body>
+</html>
