@@ -1,0 +1,38 @@
+body{
+    background-image: url("../Front_End/MULTIMEDIA/2976354.jpg");
+}
+div{
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+
+#one{
+    position: static;
+    background-color: aqua;
+}
+
+#two{
+    position: relative;
+    background-color: rgb(232, 147, 36);
+    top: 10px;
+    
+}
+
+#three{
+    background-color: brown;
+    position: absolute;
+    top:30px;
+}
+#four{
+    background-color: chartreuse;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+#five{
+    background-color: blueviolet;
+    position: sticky;
+    bottom: 100px;
+}
