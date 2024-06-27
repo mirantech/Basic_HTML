@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>WINDOWS OBJECT IN console</h2>
+</body>
+<script>
+    // alert("ERROR OCCURED")  
+    // prompt("Enter ")
+
+    //Guess Number game     
+
+    random=10;        //it will be random number
+    guess_no=prompt("Enter the Guess no 1 to 10:")
+    while(guess_no!=random){
+        if(guess_no<random)
+             console.log("Number is less than the guess")
+        else if(guess_no>random)
+             console.log("Number is grater than the guess")
+        guess_no=prompt("Try again")
+    }
+    if(random==guess_no)
+        console.log("Congrats correct number")
+</script>
+</html>
